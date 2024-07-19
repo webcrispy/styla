@@ -1375,5 +1375,8 @@ a#hide {
 .middle-section {
     padding-bottom: 20px;
 }
+.notification-bottom .table .table-cell:last-child{
+	text-align: left;
+}
 
 }
