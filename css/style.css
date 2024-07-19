@@ -1349,10 +1349,7 @@ a#hide {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.header-section .table .table-cell:last-child {
-    width: 191px;
-    text-align: right;
-}
+
 .post-bg .table .table-cell:last-child{
 	text-align: left;
 }
@@ -1377,6 +1374,42 @@ a#hide {
 }
 .notification-bottom .table .table-cell:last-child{
 	text-align: left;
+
+}
+.notification-down{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+.notification-down:before{
+	right: 68px;
+}
+.notification-down{
+	padding: 30px 10px;
+}
+
+.notification-down p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.notification-down .btn a {
+    max-width: 67px;
+    width: 100%;
+}
+.table-cell.menu {
+    width: 180px !important;
+}
+.btn-following a {
+    background: none;
+    color: #545454;
+    font-size: 12px;
+    line-height: 14px;
+}
+.notification-bottom .table .table-cell:last-child {
+    text-align: left;
+    padding-left: 5px;
+    width: auto;
 }
 
 }
